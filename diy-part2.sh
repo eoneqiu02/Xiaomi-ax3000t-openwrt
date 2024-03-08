@@ -12,5 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.7/g' package/base-files/files/bin/config_generate
-git clone https://github.com/kenzok8/small-package/tree/ddfbde6fa72346c891152b358d81b9c2d6f61887/ddns-go package/ddns-go
-git clone https://github.com/kenzok8/small-package/tree/ddfbde6fa72346c891152b358d81b9c2d6f61887/luci-app-ddnsto package/luci-app-ddnsto
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+#git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/luci-app-ddnsto
